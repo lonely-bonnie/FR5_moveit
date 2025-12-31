@@ -1,0 +1,9 @@
+Symlinking /home/dipper/FR5_moveit/devel/lib/libmoveit_setup_assistant_tools.so.1.1.16
+Symlinking /home/dipper/FR5_moveit/devel/lib/libmoveit_setup_assistant_tools.so
+Symlinking /home/dipper/FR5_moveit/devel/lib/libmoveit_setup_assistant_widgets.so.1.1.16
+Symlinking /home/dipper/FR5_moveit/devel/lib/libmoveit_setup_assistant_widgets.so
+Symlinking /home/dipper/FR5_moveit/devel/lib/pkgconfig/moveit_setup_assistant.pc
+Symlinking /home/dipper/FR5_moveit/devel/lib/moveit_setup_assistant/collisions_updater
+Symlinking /home/dipper/FR5_moveit/devel/lib/moveit_setup_assistant/moveit_setup_assistant
+Symlinking /home/dipper/FR5_moveit/devel/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig.cmake
+Symlinking /home/dipper/FR5_moveit/devel/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig-version.cmake

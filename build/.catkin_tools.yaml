@@ -1,0 +1,6 @@
+devel_space: /home/dipper/FR5_moveit/devel
+install: false
+install_space: /home/dipper/FR5_moveit/install
+profile: default
+source_space: /home/dipper/FR5_moveit/src
+workspace: /home/dipper/FR5_moveit

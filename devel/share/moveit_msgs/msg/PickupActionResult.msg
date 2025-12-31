@@ -1,0 +1,1 @@
+/home/dipper/FR5_moveit/devel/.private/moveit_msgs/share/moveit_msgs/msg/PickupActionResult.msg

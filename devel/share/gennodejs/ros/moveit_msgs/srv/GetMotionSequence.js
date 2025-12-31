@@ -1,0 +1,1 @@
+/home/dipper/FR5_moveit/devel/.private/moveit_msgs/share/gennodejs/ros/moveit_msgs/srv/GetMotionSequence.js

@@ -1,0 +1,1 @@
+/home/dipper/FR5_moveit/devel/.private/moveit_msgs/share/roseus/ros/moveit_msgs/msg/PickupFeedback.l

@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: fr5_description
+    relative_path: urdf/fr5_description.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/fr5_description.srdf
+  CONFIG:
+    author_name: lonely-bonnie
+    author_email: 1751161436@qq.com
+    generated_timestamp: 1755763482

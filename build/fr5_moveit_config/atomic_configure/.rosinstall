@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dipper/FR5_moveit/devel/.private/fr5_moveit_config/setup.sh
