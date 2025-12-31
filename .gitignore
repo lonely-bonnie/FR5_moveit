@@ -1,0 +1,16 @@
+# 忽略编译生成的文件夹
+build/
+devel/
+install/
+log/
+logs/
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.pyc
+
+# 忽略 VSCode 的本地配置文件 (可选，推荐忽略)
+.vscode/
+
+# 忽略系统生成的文件
+.DS_Store

@@ -1,8 +1,0 @@
-prefix=/home/dipper/FR5_moveit/devel/.private/fr5_data_collection
-
-Name: fr5_data_collection
-Description: Description of fr5_data_collection
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

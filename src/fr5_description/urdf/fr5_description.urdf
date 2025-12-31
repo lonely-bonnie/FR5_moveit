@@ -105,8 +105,8 @@
       rising="0"
       falling="0" />
     <dynamics
-      damping="0"
-      friction="0" />
+      damping="2.0"
+      friction="1.0" />
     <safety_controller
       soft_lower_limit="-3.0543"
       soft_upper_limit="3.0543"
@@ -174,8 +174,8 @@
       rising="0"
       falling="0" />
     <dynamics
-      damping="0"
-      friction="0" />
+      damping="2.0"
+      friction="1.0" />
     <safety_controller
       soft_lower_limit="-4.6251"
       soft_upper_limit="1.4835"
@@ -243,8 +243,8 @@
       rising="0"
       falling="0" />
     <dynamics
-      damping="0"
-      friction="0" />
+      damping="1.5"
+      friction="0.8" />
     <safety_controller
       soft_lower_limit="-2.8274"
       soft_upper_limit="2.8274"
@@ -312,8 +312,8 @@
       rising="0"
       falling="0" />
     <dynamics
-      damping="0"
-      friction="0" />
+      damping="0.5"
+      friction="0.3" />
     <safety_controller
       soft_lower_limit="-4.6251"
       soft_upper_limit="1.4835"
@@ -351,7 +351,7 @@
       </material>
     </visual>
     <collision>
-      <origins
+      <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
@@ -374,18 +374,18 @@
       xyz="0 0 1" />
     <limit
       lower="0"
-      upper="6.1958"
+      upper="6.2832"
       effort="500"
       velocity="3.14" />
     <calibration
       rising="0"
       falling="0" />
     <dynamics
-      damping="0"
-      friction="0" />
+      damping="0.5"
+      friction="0.3" />
     <safety_controller
       soft_lower_limit="0"
-      soft_upper_limit="6.1958"
+      soft_upper_limit="6.2832"
       k_position="15"
       k_velocity="10" />
   </joint>
@@ -450,8 +450,8 @@
       rising="0"
       falling="0" />
     <dynamics
-      damping="0"
-      friction="0" />
+      damping="1.0"
+      friction="0.5" />
     <safety_controller
       soft_lower_limit="-3.0543"
       soft_upper_limit="3.0543"

@@ -1,1 +1,0 @@
-/home/dipper/FR5_moveit/devel/.private/fr5_data_collection/lib/pkgconfig/fr5_data_collection.pc
