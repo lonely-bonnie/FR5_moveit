@@ -12,6 +12,12 @@
   <!-- Launch Gazebo and spawn the robot -->
   <include file="$(dirname)/gazebo.launch" pass_all_args="true"/>
 
+  <!-- Wait for the controller to be ready -->
+  <arg name="controller_ready_wait_time" default="5.0" />
+  <node name="wait_for_controller" pkg="rosservice" type="rosservice" 
+        args="call --wait /controller_manager/list_controllers" 
+        output="screen"/>
+
   <!-- Launch MoveIt -->
   <include file="$(dirname)/demo.launch" pass_all_args="true">
     <!-- robot_description is loaded by gazebo.launch, to enable Gazebo features -->

@@ -174,8 +174,8 @@
       rising="0"
       falling="0" />
     <dynamics
-      damping="2.0"
-      friction="1.0" />
+      damping="5.0"
+      friction="2.0" />
     <safety_controller
       soft_lower_limit="-4.6251"
       soft_upper_limit="1.4835"
@@ -381,8 +381,8 @@
       rising="0"
       falling="0" />
     <dynamics
-      damping="0.5"
-      friction="0.3" />
+      damping="2.0"
+      friction="1.0" />
     <safety_controller
       soft_lower_limit="0"
       soft_upper_limit="6.2832"
