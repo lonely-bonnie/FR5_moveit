@@ -18,32 +18,32 @@ arm_effort_controller:
     j6: {trajectory: 0.30, goal: 0.08}
   gains:
     j1:
-      p: 1500
-      d: 80
-      i: 0
-      i_clamp: 0
+      p: 526
+      d: 2
+      i: 0.15
+      i_clamp: 18
     j2:
-      p: 1200
-      d: 80
-      i: 0.5
-      i_clamp: 20
+      p: 1906
+      d: 98
+      i: 0.25
+      i_clamp: 40
     j3:
-      p: 1000
-      d: 60
-      i: 0.5
-      i_clamp: 20
+      p: 2248
+      d: 5.4
+      i: 0.19
+      i_clamp: 30
     j4:
-      p: 300
-      d: 12
+      p: 310
+      d: 15
       i: 0
       i_clamp: 0
     j5:
-      p: 300
-      d: 12
+      p: 305
+      d: 9
       i: 0
       i_clamp: 0
     j6:
-      p: 120
-      d: 4
+      p: 156
+      d: 3.14
       i: 0
       i_clamp: 0
