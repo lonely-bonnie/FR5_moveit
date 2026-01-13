@@ -188,7 +188,7 @@
         <axis xyz="0 0 1" />
         <limit lower="0" upper="6.2832" effort="500" velocity="3.14" />
         <calibration rising="0" falling="0" />
-        <dynamics damping="2.0" friction="1.0" />
+        <dynamics damping="5.0" friction="2.0" />
         <safety_controller soft_lower_limit="0" soft_upper_limit="6.2832" k_position="15" k_velocity="10" />
     </joint>
     <link name="wrist3_link">
@@ -231,6 +231,8 @@
         <actuator name="j1_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
+            <effortLimits>1000</effortLimits>
+            <velocityLimits>3.14</velocityLimits>
         </actuator>
     </transmission>
     <transmission name="trans_j2">
@@ -241,6 +243,8 @@
         <actuator name="j2_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
+            <effortLimits>1000</effortLimits>
+            <velocityLimits>3.14</velocityLimits>
         </actuator>
     </transmission>
     <transmission name="trans_j3">
@@ -251,6 +255,8 @@
         <actuator name="j3_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
+            <effortLimits>1000</effortLimits>
+            <velocityLimits>3.14</velocityLimits>
         </actuator>
     </transmission>
     <transmission name="trans_j4">
@@ -261,6 +267,8 @@
         <actuator name="j4_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
+            <effortLimits>1000</effortLimits>
+            <velocityLimits>3.14</velocityLimits>
         </actuator>
     </transmission>
     <transmission name="trans_j5">
@@ -271,6 +279,8 @@
         <actuator name="j5_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
+            <effortLimits>1000</effortLimits>
+            <velocityLimits>3.14</velocityLimits>
         </actuator>
     </transmission>
     <transmission name="trans_j6">
@@ -281,6 +291,8 @@
         <actuator name="j6_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
+            <effortLimits>1000</effortLimits>
+            <velocityLimits>3.14</velocityLimits>
         </actuator>
     </transmission>
 
